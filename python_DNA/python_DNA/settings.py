@@ -19,6 +19,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+IMAGES_SUBDIR = 'images'
+IMAGES_DIR = os.path.join(MEDIA_ROOT, IMAGES_SUBDIR)
+PROBLEM_JSON_DIR = os.path.join(BASE_DIR, 'problems_json')
+PROBLEM_JSON_PATH = os.path.join(PROBLEM_JSON_DIR, 'problems.json')
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
@@ -47,7 +54,6 @@ INSTALLED_APPS = [
     'problems',
     'drf_yasg',
     'ai',
-    'problem_note',
     
 ]
 

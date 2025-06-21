@@ -1,1 +1,1596 @@
-[]
+[
+  {
+    "question": "그림과 같아 삼각형 ABC에서 선분 AB 위에 AD:DB = 3:3인 점 D를 잡고, 점 A를 중심으로 하고 점 D를 지나는 원을 O라 하자. 원 O와 선분 AC가 만나는 점을 E라 하자. sinA:sinC=8:5일 때, 삼각형 ADE와 삼각형 ABC의 넓이의 비가 9:85이다. 삼각형 ABC의 외접원의 반지름의 길이가 7일 때, 원 O 위의 점 P에 대하여 삼각형 AEP의 넓이의 최댓값은?",
+    "latex": "AD:DB = 3:3, \\sin A : \\sin C = 8:5, \\text{삼각형 } ADE \\text{와 삼각형 } ABC \\text{의 넓이의 비가 } 9:85, R_{ABC} = 7",
+    "options": [
+      "18+15\\sqrt{3}",
+      "24+20\\sqrt{3}",
+      "30+25\\sqrt{3}",
+      "36+30\\sqrt{3}",
+      "42+35\\sqrt{3}"
+    ],
+    "answer": "모름",
+    "category": "기하",
+    "image_path": "images/math_test_2.png"
+  },
+  {
+    "question": "위의 조건을 만족하는 0이 아닌 정수해의 순서쌍 (a, b, c)의 개수는?",
+    "latex": "(가) a + b + c = 4, (나) b = a^2 + 2ab + b^2 + c^2, (다) c = abe, (라) A + B + C = 1",
+    "options": [
+      "0",
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "images/math_test_1.png"
+  },
+  {
+    "question": "위의 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 7, (나) z = x^2 + 3xy + y^2, (다) y = x^3 - 2yz + z^2, (라) X + Y + Z = 2",
+    "options": [
+      "0",
+      "2",
+      "5",
+      "7",
+      "10"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/gpt_generated_image.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (p, q, r)의 개수는?",
+    "latex": "(가) p + q + r = 8, (나) r = p^2 + 4pq + q^2, (다) q = p^3 - 3qr + r^2, (라) P + Q + R = 3",
+    "options": [
+      "0",
+      "1",
+      "4",
+      "8",
+      "11"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/gpt_generated_image.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (m, n, o)의 개수는?",
+    "latex": "(가) m + n + o = 10, (나) o = m^2 + 5mn + n^2, (다) n = m^3 - 4no + o^2, (라) M + N + O = 4",
+    "options": [
+      "0",
+      "2",
+      "5",
+      "7",
+      "13"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/problem_5.png"
+  },
+  {
+    "question": "아래의 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 12, (나) z = x^2 + 3xy + y^2, (다) x = yz - y^3 + z^2, (라) X + Y + Z = 2",
+    "options": [
+      "0",
+      "2",
+      "5",
+      "10",
+      "15"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/problem_6.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 12, (나) z = x^2 + 3xy + y^2, (다) y = x^3 - 2yz + z^2, (라) X + Y + Z = 5",
+    "options": [
+      "0",
+      "2",
+      "6",
+      "10",
+      "15"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/problem_7.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 12, (나) z = x^2 + 3xy + y^2, (다) y = x^3 - 2yz + z^2, (라) X + Y + Z = 5",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "7",
+      "10"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/problem_8.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 12, (나) z = x^2 + 3xy + y^2, (다) y = x^3 - 2yz + z^2, (라) X + Y + Z = 5",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "10"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/problem_9.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 12, (나) z = x^2 + 3xy + y^2, (다) y = x^3 - 2yz + z^2, (라) X + Y + Z = 2",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "10"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/problem_10.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 12, (나) z = x^2 + 3xy + y^2, (다) y = x^3 - 2yz + z^2, (라) X + Y + Z = 5",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "10"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/problem_11.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 12, (나) z = x^2 + 3xy + y^2, (다) y = x^3 - 2yz + z^2, (라) X + Y + Z = 5",
+    "options": [
+      "0",
+      "2",
+      "5",
+      "10",
+      "15"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "ERROR"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 12, (나) z = x^2 + 3xy + y^2, (다) y = x^3 - 2yz + z^2, (라) X + Y + Z = 5",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "9"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/problem_13.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 12, (나) z = x^2 + 3xy + y^2, (다) y = x^3 - 2yz + z^2, (라) X + Y + Z = 5",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "6",
+      "10"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/problem_14.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "latex": "(가) x + y + z = 12, (나) z = x^2 + 3xy + y^2, (다) y = x^3 - 2yz + z^2, (라) X + Y + Z = 5",
+    "options": [
+      "0",
+      "1",
+      "4",
+      "10",
+      "15"
+    ],
+    "answer": "모름",
+    "category": "기타",
+    "image_path": "results/problem_15.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)의 개수는?",
+    "image_path": "ERROR"
+  },
+  {
+    "question": "다음 조건을 만족하는 정수해 (x, y)의 순서쌍은?",
+    "image_path": "results/problem_17.png",
+    "latex": "x+y=16, x\\times y=64"
+  },
+  {
+    "question": "다음 조건을 만족하는 0이 아닌 정수해의 순서쌍 (x, y, z)은?",
+    "image_path": "results/problem_18.png",
+    "latex": "x+y+z=19, xyz=144, 최대공약수=1, x, y, z는 양의 정수"
+  },
+  {
+    "question": "다음 조건을 만족하는 양의 정수해 (x, y, z)의 개수는?",
+    "latex": [
+      "x + y + z = 83",
+      "xyz = 19285",
+      "x < y < z"
+    ],
+    "explain": "",
+    "image_path": "results/problem_19.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 원의 부채꼴의 넓이는 얼마인가?",
+    "latex": [
+      "반지름~r=8",
+      "중심각~\\theta=60^\\circ",
+      "호의~길이~L=8.38"
+    ],
+    "explain": "",
+    "image_path": "results/problem_20.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 원의 부채꼴의 넓이는 얼마인가?",
+    "latex": [
+      "반지름~r=5",
+      "중심각~\\theta=60^\\circ",
+      "호의~길이~L=5.24"
+    ],
+    "explain": "",
+    "image_path": "results/problem_21.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 원의 부채꼴의 넓이는 얼마인가?",
+    "latex": [
+      "r = 10",
+      "\\theta = 126.5^\\circ",
+      "~L = 21.99"
+    ],
+    "explain": "",
+    "image_path": "results/problem_22.png"
+  },
+  {
+    "question": "좌표공간에 중심이 C(2, \\sqrt{5}, 5)이고 점 (8, 0, 1)을 지나는 구 S: (x-2)^2+(y-\\sqrt{5})^2 + (z-5)^2 = 25가 있다. 구 S가 평면 Oxy와 만나서 생기는 원 위를 움직이는 점 Q, 평면 Oxz 위를 움직이는 점 R에 대하여 두 점 Q, R의 x-y 평면 위로의 정사영을 각각 Q', R'이라 하자. 삼각형 OQ'R'의 넓이가 최대가 되도록 하는 두 점 Q, R에 대하여 삼각형 OQ'R'의 평면 Oxy 위로의 정사영의 넓이는 \\(\\frac{m\\sqrt{n}}{p}\\)의 값을 구하시오. (단, O는 원점이고 세 점 O, Q', R'은 한 직선 위에 있지 않으며, m과 n은 서로소인 자연수이다.) [4점]",
+    "latex": "(x-2)^2+(y-\\sqrt{5})^2 + (z-5)^2 = 25",
+    "options": null,
+    "answer": "\\(\\frac{m\\sqrt{n}}{p}\\)",
+    "category": "geometry",
+    "image_path": "images/스크린샷 2025-06-09 195651.png"
+  },
+  {
+    "question": "27. 실수 tol 대하여 원점을 지나고 곡선 y= AAS] 기울기를 fet 하자. /(0 =-ㅇ\\ 상수 0에 대하여 /\"(0)의 We? [3점]",
+    "latex": "",
+    "options": [
+      "1",
+      "1",
+      "2",
+      "O-teye @-Leve — @ -Beve @-Reve — @-eve"
+    ],
+    "answer": "",
+    "category": "",
+    "image_path": "images/스크린샷 2025-06-09 194214.png"
+  },
+  {
+    "question": "실수 전체의 집합에서 연속인 함수 f(x)가 모든 실수 x에 대하여 f(x)=0이고, f'(4)<0일 때 f'(0) =-440? 이다. 모든 양수 t에 대하여 x에 대한 방정식 f(x)=1의 서로 다른 실근의 개수는 ?이고, 이 방정식의 두 실근 중 작은 값을 g(t), 큰 값을 h(t) 하자. 두 함수 g(t), h(t)는 모든 양수 t에 대하여 2g(t)+ h(t) =k (k는 상수)를 만족시킨다. f(0)=0일 때 a, b는 얼마인가?",
+    "latex": "f(x)=0, \\ f'(4)<0, \\ f'(0)=-440, \\ 2g(t)+h(t)=k",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "category": "미분 방정식",
+    "image_path": "images/스크린샷 2025-06-09 194239.png"
+  },
+  {
+    "question": "29. 공비가 각각 0이 아닌 두 등비수열 {a_n}, {b_n}에 대하여 두 급수 Σa_n, Σb_n이 각각 수렴하고, \\( \\frac{S_a}{S_b} = 7 \\)일 때, \\( \\frac{a_1}{b_1} = 5 \\)일 때, \\( \\frac{S_{a_{120}}}{S_{b_{120}}} \\)의 값을 구하시오.",
+    "latex": "\\frac{S_a}{S_b} = 7 \\text{, } \\frac{a_1}{b_1} = 5 \\text{ 일 때, } \\frac{S_{a_{120}}}{S_{b_{120}}} \\text{의 값을 구하시오.}",
+    "options": {
+      "A": "35",
+      "B": "25",
+      "C": "45",
+      "D": "30"
+    },
+    "answer": "A",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194247.png"
+  },
+  {
+    "question": "실수 전체의 집합에서 미분가능한 함수 f(x)의 도함수 f'(x)가 |sin x|cos x이다. 양수 a에 대하여 곡선 y=f(x) 위의 점 (a, f(a))에서의 접선의 방정식을 y= f'(a) (x - a) + f(a) 라 하자. 함수 g(x) = f(x) - x^2 가 x=c에서 극대 또는 극소가 되도록 하는 모든 c를 수부터 크기순으로 나열할 때, 2x < log_a(9) 값을 구하시오. [4점] 양수 a의 7번째 수를 a_7이라 하자.",
+    "latex": "f'(x) = |\\sin x| \\cos x, \\quad g(x) = f(x) - x^2",
+    "options": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4"
+    ],
+    "answer": "b) 2",
+    "category": "미적분학",
+    "image_path": "images/스크린샷 2025-06-09 194252.png"
+  },
+  {
+    "question": "좌표공간의 두 점 A(0,-2.0), B(9.2,0)에 대하여 선분 AB의 중점의 좌표가 (4.0, 7)일 때, A+B의 값은?",
+    "latex": "A(0, -2.0), \\ B(9.2, 0) \\text{에서 중점 } M(4.0, 7) \\text{일 때, } A+B \\text{의 값은?}",
+    "options": [
+      "01",
+      "Q3",
+      "Os",
+      "@7",
+      "65",
+      "9"
+    ],
+    "answer": "9",
+    "category": "geometry",
+    "image_path": "images/스크린샷 2025-06-09 194301.png"
+  },
+  {
+    "question": "타원 \\(\\frac{x^2}{9} + \\frac{y^2}{5} = 1\\) 위의 점 \\((\\sqrt{5}, -\\frac{\\sqrt{5}}{3})\\)에서의 접선의 기울기는? (단, \\(a\\)는 양수이다.) [3점]",
+    "latex": "\\frac{x^2}{9} + \\frac{y^2}{5} = 1",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194306.png"
+  },
+  {
+    "question": "두 벡터 \\( \\mathbf{a} \\)와 \\( \\mathbf{b} \\)에 대하여 \\( |\\mathbf{a}| = 3 \\), \\( |2\\mathbf{a} - \\mathbf{b}| = 7 \\)일 때, \\( |\\mathbf{a} \\cdot \\mathbf{b}| \\)의 값은?",
+    "latex": "|\\mathbf{a}| = 3, \\quad |2\\mathbf{a} - \\mathbf{b}| = 7",
+    "options": [
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "answer": "9",
+    "category": "벡터",
+    "image_path": "images/스크린샷 2025-06-09 194314.png"
+  },
+  {
+    "question": "좌표공간에 평면 \\( \\alpha \\)가 있다. 평면 \\( \\alpha \\) 위에 있지 않은 서로 다른 두 점 \\( A, B \\)의 평면 \\( \\alpha \\) 위로의 정사영을 각각 \\( A', B' \\)이라 할 때, \\( AB = 4 \\), \\( A'B' = 6 \\)이다. 선분 \\( AB \\)의 중점 \\( M \\)의 평면 \\( \\alpha \\) 위로의 정사영을 \\( M' \\)이라 할 때, \\( PM' \\perp A'B' \\), \\( PM' = 6 \\)이 되도록 평면 \\( \\alpha \\) 위에 점 \\( P \\)를 잡는다. 삼각형 \\( A'B'P \\)의 평면 \\( \\alpha \\) 위로의 정사영의 넓이가 \\( 9 \\)일 때, 선분 \\( PM \\)의 길이는? [3점]",
+    "latex": "AB = 4, \\; A'B' = 6, \\; PM' \\perp A'B', \\; PM' = 6",
+    "options": [
+      "15",
+      "8",
+      "18",
+      "21"
+    ],
+    "answer": "15",
+    "category": "Geometry",
+    "image_path": "images/스크린샷 2025-06-09 194318.png"
+  },
+  {
+    "question": "27. 초점이 『인 포물선 /”=82 위의 한 점 AMA 포물선의 준선에 내린 수선의 발을 Be} 하고, 직선 BFS} 포물선이 만나는 두 점을 각각 0, De 하자. 80 = 00 일 때, 삼각형 482의 넓이는? (단, 대 < 이고, 점 A% 원점이 아니다.) [3점]",
+    "latex": "",
+    "options": [
+      "10019",
+      "10419",
+      "10872",
+      "12y2",
+      "16y2"
+    ],
+    "answer": "10419",
+    "category": "geometry",
+    "image_path": "images/스크린샷 2025-06-09 194324.png"
+  },
+  {
+    "question": "28, 그림과 같이 서로 다른 두 평면 a, 99) 교선 위에 28 =내인 두 점 A, 8가 있다. 선분 ABE 지름으로 하는 원 {이 Bao 위에 있고, 선분 ABE 장축으로 하고 두 점 8, P'S 초접으로 하는 타원 가 평면 18 위에 있다. 원 <: 위의 한 점 『에서 평면 Gol 내린 수선의 발을 브라 할 때, HF’ <HF ola cHPF’= = oleh. 직선 HF 9} 타원 0;가 만나는 점 중 점 HS} 가까운 점을 Qe} 하면, FH < 80이다. AHS 중심으로 하고 점 를 지나는 평면 6 위의 원은 반지름의 길이가 4이고 직선 48에 접한다. 두 평면 a, 8가 이루는 각의 크기를 0라 할 때, cose] 값은?",
+    "latex": "",
+    "options": [
+      "1) 0.5",
+      "2) 0.6",
+      "3) 0.7",
+      "4) 0.8"
+    ],
+    "answer": "1) 0.5",
+    "category": "Geometry",
+    "image_path": "images/스크린샷 2025-06-09 194334.png"
+  },
+  {
+    "question": "양수 c에 대하여 두 점 (c, 0), (-c, 0)을 초점으로 하고, 주축의 길이가 6인 쌍곡선이 있다. 이 쌍곡선 위에 다음 조건을 만족시키는 서로 다른 두 점 P, Q가 존재하도록 하는 모든 c의 값의 합을 구하시오.",
+    "latex": "주어진 쌍곡선의 방정식은 \\( \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1 \\)이고, 초점이 (c, 0), (-c, 0)이므로, \\( c^2 = a^2 + b^2 \\). 주축의 길이가 6이므로 \\( 2a = 6 \\)에서 \\( a = 3 \\). 따라서 \\( c^2 = 9 + b^2 \\).",
+    "options": [
+      "a. 6",
+      "b. 9",
+      "c. 12",
+      "d. 15"
+    ],
+    "answer": "c. 12",
+    "category": "Geometry",
+    "image_path": "images/스크린샷 2025-06-09 194339.png"
+  },
+  {
+    "question": "좌표평면에 한 변의 길이가 \\( s \\)인 정삼각형 ABC가 있다. 선분 AB를 1:3으로 내분하는 점을 D, 선분 BC를 1:3으로 내분하는 점을 E, 선분 CA를 1:3으로 내분하는 점을 F라 하자. 이 점 D, E, F가 다음 조건을 만족시킨다. \\( \\vec{AX} = p\\vec{AB} + q\\vec{BC} + r\\vec{CA} \\) [\\( \\vec{AX} \\)]의 길이가 최대일 때, 삼각형 DEF의 넓이를 \\( s \\)로 하자. \\( 105s^2 \\)의 값을 구하시오. [4점]",
+    "latex": "\\begin{align*} &\\text{Let } \\triangle ABC \\text{ be an equilateral triangle with side length } s. \\\\ &\\text{Point } D \\text{ divides } \\overline{AB} \\text{ in the ratio } 1:3, \\\\ &\\text{Point } E \\text{ divides } \\overline{BC} \\text{ in the ratio } 1:3, \\\\ &\\text{Point } F \\text{ divides } \\overline{CA} \\text{ in the ratio } 1:3. \\\\ &\\text{If } \\vec{AX} = p\\vec{AB} + q\\vec{BC} + r\\vec{CA}, \\\\ &\\text{find } 105s^2 \\text{ when the length of } \\vec{AX} \\text{ is maximized.} \\end{align*}",
+    "options": [
+      "A) 35",
+      "B) 70",
+      "C) 105",
+      "D) 140"
+    ],
+    "answer": "C) 105",
+    "category": "Geometry",
+    "image_path": "images/스크린샷 2025-06-09 194343.png"
+  },
+  {
+    "question": "아래의 수식을 계산하세요.",
+    "latex": "2x + 3 = 7",
+    "options": [
+      "x = 1",
+      "x = 2",
+      "x = 3",
+      "x = 4"
+    ],
+    "answer": "x = 2",
+    "category": "대수학",
+    "image_path": "images/스크린샷 2025-06-09 194628.png"
+  },
+  {
+    "question": "공비가 양수인 등비수열 \\(a_1, a_2, a_3, \\ldots\\)에서 \\(a_1 + a_2 = 30\\), \\(a_2 + a_3 = 60\\)을 만족시킬 때, \\(a_3\\)의 값은?",
+    "latex": "\\begin{align*} a_1 + a_2 &= 30, \\\\ a_2 + a_3 &= 60 \\end{align*}",
+    "options": [
+      "48",
+      "56",
+      "64",
+      "72"
+    ],
+    "answer": "48",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194631.png"
+  },
+  {
+    "question": "\\( \\lim_{x \\to 2} \\frac{27-2x+3x^2}{x^2} \\) 의 값은?",
+    "latex": "\\lim_{x \\to 2} \\frac{27-2x+3x^2}{x^2}",
+    "options": [
+      "8",
+      "4"
+    ],
+    "answer": "8",
+    "category": "한계값",
+    "image_path": "images/스크린샷 2025-06-09 194635.png"
+  },
+  {
+    "question": "다항함수 f(x)에 대하여 함수 g(x)를 g(x) = 2f(x)라 하자. f(2)=1, f'(2)=3일 때, g'(2)의 값은?",
+    "latex": "g(x) = 2f(x), \\ f(2)=1, \\ f'(2)=3",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": "12",
+    "category": "미적분",
+    "image_path": "images/스크린샷 2025-06-09 194638.png"
+  },
+  {
+    "question": "5. tan <0이고 cos(Z+6)= 2 일 때, cosa 2] 값은? [3점]",
+    "latex": "",
+    "options": [
+      "@ -%",
+      "@0",
+      "@",
+      "av",
+      "00",
+      "v5",
+      "5",
+      "®"
+    ],
+    "answer": "",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194642.png"
+  },
+  {
+    "question": "모든 항이 양수이고 첫째항과 공차가 같은 등차수열 \\(a_n\\)이 \\(a_{20} = 3a_1\\)를 만족시킬 때, \\(a_1\\)의 값은?",
+    "latex": "a_{20} = 3a_1",
+    "options": [
+      "6",
+      "97",
+      "868",
+      "909"
+    ],
+    "answer": "97",
+    "category": "[3점]",
+    "image_path": "images/스크린샷 2025-06-09 194646.png"
+  },
+  {
+    "question": "함수 f(x) = ax^3 + bx^2 + 7x + 5는 x = 1에서 극대이고, x = b에서 극소이다. a + b의 값을 구하시오. (단, a, b는 상수이다.)",
+    "latex": "f(x) = ax^3 + bx^2 + 7x + 5",
+    "options": [
+      16,
+      18,
+      20
+    ],
+    "answer": 18,
+    "category": "미분",
+    "image_path": "images/스크린샷 2025-06-09 194650.png"
+  },
+  {
+    "question": "점 (0, 4)에서 곡선 y = 27x^2 - 27x + c에 그은 접선의 절편은?",
+    "latex": "y = 27x^2 - 27x + c",
+    "options": [
+      "0",
+      "-1",
+      "-2"
+    ],
+    "answer": "-1",
+    "category": "미분",
+    "image_path": "images/스크린샷 2025-06-09 194655.png"
+  },
+  {
+    "question": "두 곡선 y = 20 + 27x, y = -7x + c와 x축으로 둘러싸인 영역의 넓이가 4일 때, 두 곡선 y = ax^2, y = bx^2 + c로 둘러싸인 영역의 넓이가 2가 되도록 하는 상수 c의 값은? (단, 4 < c < 5)",
+    "latex": "y = 20 + 27x, y = -7x + c",
+    "options": [
+      "25",
+      "13",
+      "9",
+      "14",
+      "29"
+    ],
+    "answer": "14",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194700.png"
+  },
+  {
+    "question": "함수 \\( f(x) = a - \\sqrt{3} \\tan 2x \\) 가 닫힌 구간 \\([-\\frac{\\pi}{6}, \\frac{\\pi}{6}]\\)에서 최대값 7, 최소값 3을 가질 때, \\(a \\times b\\)의 값을 구하시오. (단, \\(a, b\\)는 상수이다.)",
+    "latex": "f(x) = a - \\sqrt{3} \\tan 2x",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": "14",
+    "category": "함수",
+    "image_path": "images/스크린샷 2025-06-09 194704.png"
+  },
+  {
+    "question": "11. 그림과 같이 사각형 ABCD가 한 원에 내접하고 AB=5, AC=3√5, AD=7, ∠BAC=∠CAD일 때, 이 원의 반지름의 길이는? [4점]",
+    "latex": "",
+    "options": {
+      "A": "6",
+      "B": "52",
+      "C": "85",
+      "D": "55"
+    },
+    "answer": "B",
+    "category": "Geometry",
+    "image_path": "images/스크린샷 2025-06-09 194711.png"
+  },
+  {
+    "question": "12. 실수 전제의 집합에서 연속인 함수 f(x)가 다음 조건을 만족할 때, 열린구간 (0,4)에서 정의된 함수 g(x)=x/f(x)가 x=8에서 극솟값을 가질 때, f(8)의 값은? [4점]",
+    "latex": "f(n-1) < a < f(n) \\text{일 때, } |f(0)| = 16(0-7+1)00-7441 \\text{이다. } (\\text{단, } f \\text{는 자연수이다.})",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "category": "미적분학",
+    "image_path": "images/스크린샷 2025-06-09 194718.png"
+  },
+  {
+    "question": "자연수 m(m = 2)에 대하여 m의 7제곱근 중에서 정수가 존재하도록 하는 2 이상의 자연수 n의 개수를 f(m)이라 할 때, f(100)의 값은?",
+    "latex": "f(100)",
+    "options": [
+      "37",
+      "42",
+      "47",
+      "52",
+      "57"
+    ],
+    "answer": "42",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194725.png"
+  },
+  {
+    "question": "14. 다항함수 f(x)에 대하여 함수 g(x)를 다음과 같이 정의한다. \n\n g(x) = \n  0    (x < -1 또는 x > 1) \n  f(x) (-1 < x < 1) \n\n 함수 h(x) = \\lim_{x \\to 0} g(x) \\lim_{x \\to 0} f(x) 일 때 다음 중 옳은 것을 있는 대로 고른 것은? [4점]",
+    "latex": "\\begin{align*} g(x) &= \\begin{cases} 0, & \\text{if } x < -1 \\text{ or } x > 1 \\\\ f(x), & \\text{if } -1 < x < 1 \\end{cases} \\\\ h(x) &= \\lim_{x \\to 0} g(x) \\lim_{x \\to 0} f(x) \\end{align*}",
+    "options": [
+      "ㄱ. h(1) = \\text{?}",
+      "ㄴ. 함수 f(x)는 실수 전체의 집합에서 연속이다.",
+      "ㄷ. 함수 g(x)가 닫힌구간 [-1, 1)에서 감소하고 g(-1) = -?이면 함수 g(x)는 실수 전체의 집합에서 극값을 갖는다."
+    ],
+    "answer": "ㄱ, ㄷ",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194732.png"
+  },
+  {
+    "question": "모든 항이 자연수이고 다음 조건을 만족시키는 모든 수 {0,}에 대하여 ay 2] 최댓값과 AVL 각각 AL, 7/이라 할 때, 2/+7/의 값은?",
+    "latex": "(7h) a, =40 (나) 모든 자연수 7에 대하여 Gui tay (0.41의 32] 배수가 아닌 경우) Anya = 1 Zener nar 32) 배수인 경우) 이다.",
+    "options": [
+      "216",
+      "218",
+      "220",
+      "222",
+      "224"
+    ],
+    "answer": "220",
+    "category": "[4점]",
+    "image_path": "images/스크린샷 2025-06-09 194739.png"
+  },
+  {
+    "question": "방정식 log, (3a+2) = 2 + log,(x—2)를 만족시키는 실수 x를 구하시오. [3점]",
+    "latex": "log_{10} (3a+2) = 2 + log_{10} (x-2)",
+    "options": [
+      "x = 3a + 4",
+      "x = 3a + 6",
+      "x = 3a + 8",
+      "x = 3a + 10"
+    ],
+    "answer": "x = 3a + 6",
+    "category": "방정식",
+    "image_path": "images/스크린샷 2025-06-09 194743.png"
+  },
+  {
+    "question": "함수 /(2)에 대하여 f(x) = 42° — 2r 0] f(0) = 3 때, (QI 값을 구하시오. [3점]",
+    "latex": "f(x) = 42 - 2x \\text{, } f(0) = 3",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194747.png"
+  },
+  {
+    "question": "두 수열 {a_n}, {b_n}에 대하여 다음 조건을 만족할 때, a_n과 b_n의 값을 구하시오: (3a_n + 5b_n) = 55, (a_n + b_n) = 32",
+    "latex": "(3a_n + 5b_n) = 55, \\ (a_n + b_n) = 32",
+    "options": [
+      "(a_n, b_n) = (5, 27)",
+      "(a_n, b_n) = (10, 22)",
+      "(a_n, b_n) = (15, 17)",
+      "(a_n, b_n) = (20, 12)"
+    ],
+    "answer": "(a_n, b_n) = (5, 27)",
+    "category": "수열",
+    "image_path": "images/스크린샷 2025-06-09 194752.png"
+  },
+  {
+    "question": "0 a 위를 움직이는 점의 시각 t=0에서 t=3까지 점이 움직인 거리를 구하시오. [4점]",
+    "수식": "a(t) = \\begin{cases} 2t - 1, & 0 < t < 2 \\\\ 7t + 4, & t \\geq 2 \\end{cases}",
+    "options": [
+      "A) 10",
+      "B) 12",
+      "C) 15",
+      "D) 18"
+    ],
+    "answer": "C",
+    "category": "Calculus",
+    "image_path": "images/스크린샷 2025-06-09 194756.png"
+  },
+  {
+    "question": "방정식 \\(2x^2 - 6x + k = 0\\) 이 서로 다른 양의 실근의 개수가 2가 되도록 하는 정수 \\(k\\)의 개수를 구하시오.",
+    "latex": "2x^2 - 6x + k = 0",
+    "options": [],
+    "answer": "정수 \\(k\\)의 개수는 3개입니다.",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194800.png"
+  },
+  {
+    "question": "자연수 \\( n \\) 에 대하여 함수 \\( f(x) \\) 를 \\[ f(x) = \\begin{cases} |3x^2 + n| & (x < 0) \\\\ |\\log_a(e+4) - n| & (x = 0) \\end{cases} \\] 이라 하자. 실수 \\( x \\) 에 대하여 \\( f \\) 에 대한 방정식 \\( f(x) = 0 \\) 의 서로 다른 실근의 개수를 \\( g(n) \\) 이라 할 때, 함수 \\( g(n) \\) 의 최댓값이 4가 되도록 하는 모든 자연수 \\( n \\) 의 값의 합을 구하시오. [4점]",
+    "latex": "\\begin{cases} |3x^2 + n| & (x < 0) \\\\ |\\log_a(e+4) - n| & (x = 0) \\end{cases}",
+    "options": null,
+    "answer": null,
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194805.png"
+  },
+  {
+    "question": "최고차항의 계수가 1인 삼차함수 f(x)가 실수 전체의 집합에서 연속인 함수일 때, 다음 조건을 만족시킬 때, f(4)의 값을 구하시오. [4점]",
+    "latex": "f(x) = x^3 + ax^2 + bx + c",
+    "options": [
+      "a) 모든 실수 x에 대하여 f(x) = f(0) + (x-1)f'(0)이다.",
+      "b) 함수 f(x)는 연속이다.",
+      "c) f(0) = -3, f'(0) = 0"
+    ],
+    "answer": "정답은 f(4) = 1이다.",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194810.png"
+  },
+  {
+    "question": "다항식 \\((7x+3)^n\\)의 전개식에서 \\(x^7\\)의 계수는?",
+    "latex": "(7x+3)^n",
+    "options": [
+      "30",
+      "90",
+      "120",
+      "150"
+    ],
+    "answer": "120",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 194816.png"
+  },
+  {
+    "question": "숫자 1, 2, 3, 4, 5 중에서 중복 없이 4개를 택해 일렬로 나열하여 만들 수 있는 네 자리의 자연수 중 4000 이상인 홀수의 개수는?",
+    "latex": "\\text{숫자 1, 2, 3, 4, 5 중에서 중복 없이 4개를 택해 일렬로 나열하여 만들 수 있는 네 자리의 자연수 중 4000 이상인 홀수의 개수는?}",
+    "options": [
+      "125",
+      "150",
+      "175",
+      "200",
+      "225"
+    ],
+    "answer": "150",
+    "category": "조합 및 순열",
+    "image_path": "images/스크린샷 2025-06-09 195015.png"
+  },
+  {
+    "question": "흰색 마스크 5개, 검은색 마스크 9개가 들어 있는 상자가 있다. 이 상자에서 임의로 3개의 마스크를 동시에 꺼낼 때, 꺼낸 3개의 마스크 중에서 적어도 한 개가 흰색 마스크일 확률은?",
+    "latex": "1 - \\frac{\\binom{9}{3}}{\\binom{14}{3}}",
+    "options": [
+      "0.5",
+      "0.6",
+      "0.7",
+      "0.8"
+    ],
+    "answer": "0.8",
+    "category": "확률",
+    "image_path": "images/스크린샷 2025-06-09 195025.png"
+  },
+  {
+    "question": "주머니에 '1'이 적힌 흰 공 1개, '2'가 적힌 흰 공 1개, '1'이 적힌 검은 공 1개, '2'가 적힌 검은 공 3개가 들어 있다. 이 주머니에서 임의로 3개의 공을 동시에 꺼내는 시행을 한다. 이 시행에서 꺼낸 3개의 공 중에서 흰 공이 1개이고 검은 공이 2개인 사건을 A, 꺼낸 3개의 공에 적혀 있는 수의 합이 8인 사건을 B라고 할 때, P(A∪B)의 값을 구하시오.",
+    "latex": "P(A \\cup B)",
+    "options": [
+      "1/2",
+      "3/4",
+      "5/6",
+      "1/3"
+    ],
+    "answer": "1/2",
+    "category": "확률",
+    "image_path": "images/스크린샷 2025-06-09 195033.png"
+  },
+  {
+    "question": "어느 회사에서 생산하는 샴푸 1개의 용량은 정규분포 N(m, 07)을 따른다고 한다. 이 회사에서 생산하는 샴푸 중에서 GANS 임의추출하여 얻은 표본평균을 이용하여 구한 mol] 대한 신뢰도 95% 2] 신뢰구간이 746.1 < m < 755.9이다. 이 회사에서 생산하는 샴푸 중에서 7개를 임의추출하여 얻은 표본평균을 이용하여 구하는 mel] 대한 신뢰도 99%의 신뢰구간이 a<m<b@ 때, 8-0의 값이 6 이하가 되기 위한 자연수 7,의 AEBL? (단, 용량의 단위는 ㅁ[이고, 2 가 표준정규분포를 따르는 확률변수일 때, P(|Z|< 1.96) =0.95, P(|Z| < 2.58) =0.992 계산한다.) [3점]",
+    "latex": "N(m, 07)",
+    "options": [
+      "70",
+      "74",
+      "78",
+      "82",
+      "86"
+    ],
+    "answer": "78",
+    "category": "Statistics",
+    "image_path": "images/스크린샷 2025-06-09 195040.png"
+  },
+  {
+    "question": "연속확률변수 포가 갖는 값의 범위는 0 ≤ X ≤ ㅇ이고, 주의 확률밀도함수의 그래프가 그림과 같다. P(X < b) - P(X = y) = 4, P(X < y) = 5일 때, a, b, c의 값을 구하시오.",
+    "latex": "P(X < b) - P(X = y) = 4, \\ P(X < y) = 5",
+    "options": [
+      "a = 1, b = 2, c = 3",
+      "a = 2, b = 3, c = 4",
+      "a = 3, b = 4, c = 5",
+      "a = 4, b = 5, c = 6"
+    ],
+    "answer": "a = 2, b = 3, c = 4",
+    "category": "연속확률변수",
+    "image_path": "images/스크린샷 2025-06-09 195046.png"
+  },
+  {
+    "question": "6장의 카드가 있으며, 각 카드의 앞면에는 1부터 6까지의 자연수가 하나씩 적혀 있고 뒷면에는 모두 0이 적혀 있습니다. 주사위를 한 번 던져 나온 눈의 수에 해당하는 위치의 카드를 뒤집습니다. 이 과정을 8번 반복한 후, 카드에 보이는 모든 수의 합이 짝수일 때, 주사위의 1의 눈이 한 번만 나왔을 확률을 구하시오.",
+    "latex": "\\text{6장의 카드가 있으며, 각 카드의 앞면에는 1부터 6까지의 자연수가 하나씩 적혀 있고 뒷면에는 모두 0이 적혀 있습니다. 주사위를 한 번 던져 나온 눈의 수에 해당하는 위치의 카드를 뒤집습니다. 이 과정을 8번 반복한 후, 카드에 보이는 모든 수의 합이 짝수일 때, 주사위의 1의 눈이 한 번만 나왔을 확률을 구하시오.}",
+    "options": [],
+    "answer": "",
+    "category": "확률",
+    "image_path": "images/스크린샷 2025-06-09 195052.png"
+  },
+  {
+    "question": "집합 X= {e| x= 10 이하의 자연수}에 대하여 다음 조건을 만족시키는 함수 f:X> XI] 개수를 구하시오. [4점]",
+    "latex": "\\text{집합 } X= \\{e| x= 10 \\text{ 이하의 자연수}\\} \\text{에 대하여 다음 조건을 만족시키는 함수 } f:X \\to X \\text{의 개수를 구하시오.}",
+    "options": [],
+    "answer": "",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195058.png"
+  },
+  {
+    "question": "lim (20) (001) (10(7+1)) / (2+4-2) @2 의 값은?",
+    "latex": "lim \\frac{20 \\cdot 001 \\cdot 10(7+1)}{2+4-2} @2",
+    "options": [
+      "a) 2",
+      "b) 3",
+      "c) ox"
+    ],
+    "answer": "a) 2",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195106.png"
+  },
+  {
+    "question": "24. \\( \\lim_{x \\to a} f(x) \\) 나쁘 의 값은? [3점]",
+    "latex": "\\lim_{x \\to a} f(x)",
+    "options": [
+      "3",
+      "9",
+      "9",
+      "3",
+      "9"
+    ],
+    "answer": "9",
+    "category": "limit",
+    "image_path": "images/스크린샷 2025-06-09 195112.png"
+  },
+  {
+    "question": "등비수열 \\( (a_n) \\)의 \\( \\lim_{n \\to \\infty} a_n = 3 \\)일 때, \\( a_1 \\)의 값은 얼마인가?",
+    "latex": "\\lim_{n \\to \\infty} a_n = 3",
+    "options": [
+      "16",
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "answer": "18",
+    "category": "수열",
+    "image_path": "images/스크린샷 2025-06-09 195119.png"
+  },
+  {
+    "question": "그림과 같이 곡선 y= \\sqrt{x} + 1002 = 2와 x축 및 직선 x=4로 둘러싸인 부분을 밑면으로 하는 입체도형이 있다. 이 입체도형을 x축에 수직인 평면으로 자른 단면이 모두 정사각형일 때, 이 입체도형의 부피는? [3점]",
+    "latex": "y= \\sqrt{x} + 1002 = 2",
+    "options": [
+      "\\sqrt{3} + \\ln{2}",
+      "\\sqrt{3}",
+      "\\ln{2}",
+      "\\sqrt{3} + 2\\ln{2}"
+    ],
+    "answer": "\\sqrt{3} + \\ln{2}",
+    "category": "Geometry",
+    "image_path": "images/스크린샷 2025-06-09 195142.png"
+  },
+  {
+    "question": "2 28H tol F491 0, WAS BVA 1이고 BAA 그가 ER 448 08.8.4) De 로 시티 ML, 선분 OA, AD GE 08, AE DEAT 02.0.9) OF-Ojas4e Ve te BEAL $A 08,8,21 44 HE FART, 2.04, =F Desig Ba, AEMAAY AOA, aa Be 106. 428 2717 Ee FAB On.BrE BO AW RE BE AA RE DHSS AP, De, Qo AE ASWEIY POA AMM VE AGE Ash A. 이와 Re AME ASIA ot BE AS Rok ASL Ue PEA MLE S914 WA ins.a1 he? 8] cA, 8, bose",
+    "latex": "",
+    "options": [],
+    "answer": "",
+    "category": "",
+    "image_path": "images/스크린샷 2025-06-09 195159.png"
+  },
+  {
+    "question": "28, 그림과 같이 중심이 0이고 길이가 2인 선분 48\n\n때\n\n지름으로 하는 반원 위에 <400=증인 점 (가 있다.\nBC 위에 점 『와 호 CA 위에 점 QS 28 =00가 되도록\n잡고, 선분 AP 위에 ARS <008=증가 되도록 잡는다.\n\n선분 APS 선분 COS] 교점을 5라 하자. ZPAB= 0% 때,\n삼각형 POBS 넓이를 /(0), 사각형 0005의 넓이를 0(0)라\n\n하자. jim O01 의 값은? oe, 0<0< 5) (4a",
+    "latex": "",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "1",
+    "category": "geometry",
+    "image_path": "images/스크린샷 2025-06-09 195215.png"
+  },
+  {
+    "question": "29. 세 상수 a, b, c에 대하여 함수 f(x) = ae^x + be^(-x) + c가 다음 조건을 만족시킨다. (가) f(0) = 1, (나) f(ln2) = 0. 함수 f의 역함수를 g라 할 때, g(1) = ln(3)이다. ln(3)의 값을 구하시오. (단, a, b, c는 유리수이고, ln(3)은 무리수이다.) [4점]",
+    "latex": "f(x) = ae^x + be^{-x} + c",
+    "options": [
+      "ln(3) = 1.0986",
+      "ln(3) = 1.3863",
+      "ln(3) = 1.6094",
+      "ln(3) = 1.7918"
+    ],
+    "answer": "ln(3) = 1.0986",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195221.png"
+  },
+  {
+    "question": "최고차항의 계수가 양수인 삼차함수 \\( f(x) \\)와 함수 \\( g(a) = e^{a} - 19 \\) 대하여 실수 전체의 집합에서 정의된 합성함수 \\( h(x) = g(f(x)) \\)가 다음 조건을 만족시킨다.\n\n(가) 함수 \\( f(x) \\)는 \\( x=0 \\)에서 극댓값 0을 갖는다.\n(나) 열린구간 \\( (0, 3) \\)에서 방정식 \\( h(x)=1 \\)의 서로 다른 실근의 개수는 ?이다.\n\n\\( s@=4, f'(3)=0 \\)일 때, \\( LQ)=Felt 7+0 \\)의 값을 구하시오. (단, \\( 7 \\)과 \\( 0 \\)는 서로소인 자연수이다.) [4점]",
+    "latex": "",
+    "options": [],
+    "answer": "",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195225.png"
+  },
+  {
+    "question": "Lox a? 의 값은?",
+    "latex": "\\log_{a} 81 = 24",
+    "options": [
+      "2",
+      "Oa"
+    ],
+    "answer": "Oa",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195301.png"
+  },
+  {
+    "question": "등차수열 {a_n}에 대하여 a_1 = 6, a_n = 36일 때, n의 값은?",
+    "latex": "a_1 = 6, a_n = 36",
+    "options": [
+      "30",
+      "2",
+      "x",
+      "36"
+    ],
+    "answer": "2",
+    "category": "Arithmetic Sequence",
+    "image_path": "images/스크린샷 2025-06-09 195305.png"
+  },
+  {
+    "question": "함수 \\( f(x) = x^8 + 3x^7 + 2x - 14 \\) 대하여 \\( f'(0) \\)의 값을 구하시오.",
+    "latex": "f(x) = x^8 + 3x^7 + 2x - 14",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "2",
+    "category": "미분",
+    "image_path": "images/스크린샷 2025-06-09 195309.png"
+  },
+  {
+    "question": "함수 \\( f(x) \\)의 그래프가 그림과 같다. \\( \\lim_{x \\to 0} f(x) + \\lim_{x \\to 0} f(x)^2 \\) 값은?",
+    "latex": "\\lim_{x \\to 0} f(x) + \\lim_{x \\to 0} f(x)^2",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "category": "Calculus",
+    "image_path": "images/스크린샷 2025-06-09 195312.png"
+  },
+  {
+    "question": "첫째항이 1인 수열 {a_n}이 모든 자연수 n에 대하여 \\( a_n = \\begin{cases} 2a_{n-1} & \\text{if } a_{n-1} < 7 \\\\ a_{n-1} - 7 & \\text{if } a_{n-1} = 7 \\end{cases} \\)일 때, a_5의 값은?",
+    "latex": "a_n = \\begin{cases} 2a_{n-1} & \\text{if } a_{n-1} < 7 \\\\ a_{n-1} - 7 & \\text{if } a_{n-1} = 7 \\end{cases}",
+    "options": [
+      "30",
+      "2",
+      "36",
+      "38"
+    ],
+    "answer": "2",
+    "category": "수열",
+    "image_path": "images/스크린샷 2025-06-09 195316.png"
+  },
+  {
+    "question": "7. x<0<3na 에 대하여 wand = 1 때, 5000+0050의 값은? [3점]",
+    "latex": "",
+    "options": [
+      "oH",
+      "52a"
+    ],
+    "answer": "52a",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195319.png"
+  },
+  {
+    "question": "방정식 \\(223x^3 - 323x^2 - 19x + c = 0\\)이 서로 다른 세 실근을 갖도록 하는 정수 \\(c\\)의 개수는?",
+    "latex": "223x^3 - 323x^2 - 19x + c = 0",
+    "options": [
+      "26",
+      "32"
+    ],
+    "answer": "32",
+    "category": "G6",
+    "image_path": "images/스크린샷 2025-06-09 195322.png"
+  },
+  {
+    "question": "8. 곡선 \\( y = 40x^2 - 57x \\)와 직선 \\( y = kx \\)가 둘러싸인 부분의 넓이를 직선 \\( x = m \\)가 이등분할 때, 상수 \\( k \\)의 값은? [3점]",
+    "latex": "y = 40x^2 - 57x, \\quad y = kx",
+    "options": [
+      "1) k = 1",
+      "2) k = 2",
+      "3) k = 3",
+      "4) k = 4"
+    ],
+    "answer": "3) k = 3",
+    "category": "Geometry",
+    "image_path": "images/스크린샷 2025-06-09 195324.png"
+  },
+  {
+    "question": "삼차함수 f(x)에 대하여 곡선 y=f(x) 위의 점 (0, 0)에서의 접선과 곡선 y=ax+b 위의 점 (1, 2)에서의 접선이 일치할 때, f'(2)의 값은?",
+    "latex": "f(x) \\text{와} ax+b \\text{의 접선이 일치할 때, } f'(2) \\text{의 값은?}",
+    "options": [
+      "-7",
+      "0",
+      "826",
+      "25",
+      "u"
+    ],
+    "answer": "0",
+    "category": "미적분",
+    "image_path": "images/스크린샷 2025-06-09 195328.png"
+  },
+  {
+    "question": "직선 y=20+h7h 두 함수의 그래프와 만나는 점을 각각 P, Qet 하자. 20 = \\sqrt{5} 일 때, 상수 *의 값은? [4점]",
+    "latex": "y=20+h7h",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195332.png"
+  },
+  {
+    "question": "양수 k에 대하여 정의된 함수 f(x) = k * tan(x)가 있다. 그림과 같이 함수 f(x)의 그래프 위의 세 점 O, A, B를 지나는 직선이 있다. 점 O를 지나고 x축에 평행한 직선이 함수 f(x)의 그래프와 만나는 점 중 A가 아닌 점을 C라 하자. 삼각형 ABC가 정삼각형일 때, 삼각형 ABC의 넓이는? (단, O는 원점이다.)",
+    "latex": "f(x) = k \\cdot \\tan(x)",
+    "options": [
+      "1",
+      "\\frac{\\sqrt{3}}{4}",
+      "k^2",
+      "\\frac{k^2 \\sqrt{3}}{4}"
+    ],
+    "answer": "\\frac{k^2 \\sqrt{3}}{4}",
+    "category": "Geometry",
+    "image_path": "images/스크린샷 2025-06-09 195339.png"
+  },
+  {
+    "question": "12. 실수 BAS AMA 연속인 함수 \\(f(x)\\)가 모든 실수 \\(x\\)에 대하여 \\(f'(x)^2 - (f(x))^2 + 2f(2) + 27 = 0\\)을 만족시킨다. 함수 \\(f(x)\\)는 \\(x = 2\\)일 때 \\(f(2) = 1\\)이고 \\(x = 0\\)일 때 \\(f(0) = 0\\)일 때, \\(s-4 + s0 + 7(5)91\\)의 값을 구하시오.",
+    "latex": "f'(x)^2 - (f(x))^2 + 2f(2) + 27 = 0",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1",
+    "category": "미분방정식",
+    "image_path": "images/스크린샷 2025-06-09 195341.png"
+  },
+  {
+    "question": "18. 두 상수 a, 0(1<ㅇ<)에 대하여 ARV 위의 두 접 (a, logsa), 0: 10820)를 지나는 직선의 》/절편과 두 점 (as logya), (0.10870)를 지나는 직선의 》절편이 같다. 함수 /(60 =@5+0에 때하여 /(00=40일 때, F(2)21 값은?",
+    "latex": "",
+    "options": [
+      "D760",
+      "2",
+      "80",
+      "@so",
+      "Ds",
+      "G",
+      "920"
+    ],
+    "answer": "",
+    "category": "",
+    "image_path": "images/스크린샷 2025-06-09 195345.png"
+  },
+  {
+    "question": "수직선 위를 움직이는 점의 시각 t에서의 위치 x(t)가 두 상수 a, b에 대하여 x(t) = t(t-1)(at+b)를 만족할 때, 점의 시각 t에서의 속도 v(t)가 v(t) = 2t를 만족시킬 때, <보기>에서 옳은 것만을 있는 대로 고른 것은?",
+    "latex": "x(t) = t(t-1)(at+b), \\quad v(t) = 2t",
+    "options": [
+      "ㄱ. a = 0",
+      "ㄴ. 열린구간 (0, 1)에서 t(t-1) > 0인 t가 존재한다.",
+      "ㄷ. 0 < t < 1인 모든 t에 대하여 v(t) < 1",
+      "ㄹ. v(t) = 0인 t가 열린구간 (0, 1)에 존재한다."
+    ],
+    "answer": "ㄱ, ㄷ",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195349.png"
+  },
+  {
+    "question": "0.8 자자 FHSS 화교 HES AHA OD, FAG, Grad ag BAG GEA A,B,COEAG, M91 8 DA}-F9b4 Sa, A, 0,,0,58 계절 6. Og, DIE 한 적선 A 인다 200,084, £0,0,0: chet RB OD =1:avPot o,=020,9 A AE ABS AE COS Hels 비를 FE aH, at osc ※ savers 의하여 0,C-[ 4. -05+0L-00, +0015. (Era 귀의 Ob, (다네 VRE AE 작자 J), 0삐라 Ah, (ot URE PE poh A, lo ole BE? ET . 80 =2VBt, 200.8 개 of 2% of of 5B",
+    "latex": "",
+    "options": [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    "answer": "Option 1",
+    "category": "Mathematics",
+    "image_path": "images/스크린샷 2025-06-09 195400.png"
+  },
+  {
+    "question": "16. oe, ae P48. 1381",
+    "latex": "",
+    "options": [],
+    "answer": "",
+    "category": "",
+    "image_path": "images/스크린샷 2025-06-09 195404.png"
+  },
+  {
+    "question": "17. 함수 /(2)에 대하여 f'(e) = 32?+92이고 f(0)=29 때, 7(01)의 Re 구하시오. [3점]",
+    "latex": "",
+    "options": [],
+    "answer": "",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195411.png"
+  },
+  {
+    "question": "수열 {a_n}에 대하여 a_10 = 20, a_20 = 56, 2a_n - a_{n-1} = n 일 때, a_25의 값을 구하시오.",
+    "latex": "a_{10} = 20, a_{20} = 56, 2a_n - a_{n-1} = n \\text{일 때, } a_{25} \\text{의 값을 구하시오.}",
+    "options": [
+      "341",
+      "342",
+      "343",
+      "344"
+    ],
+    "answer": "341",
+    "category": "수열",
+    "image_path": "images/스크린샷 2025-06-09 195416.png"
+  },
+  {
+    "question": "실수 전체의 집합에서 미분가능한 함수 \\( f(x) \\)가 다음 조건을 만족할 때 \\( f^2(f(0)) \\)의 값을 구하시오.",
+    "latex": "\\begin{align*} &\\text{(가) 닫힌구간 } [0, 1] \\text{에서 } f(x) = x \\\\ &\\text{(나) 어떤 상수 } a \\text{에 대하여 구간 } [0, 1] \\text{에서 } f(x+1) = af(x) \\\\ \\end{align*}",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "1",
+    "category": "미분가능한 함수",
+    "image_path": "images/스크린샷 2025-06-09 195421.png"
+  },
+  {
+    "question": "19. 함수 f(x) = 2x^3 + ax^2 - (x^2 - 80)x + 3이 실수 집합에서 증가하도록 하는 실수 a의 최댓값을 구하시오.",
+    "latex": "f(x) = 2x^3 + ax^2 - (x^2 - 80)x + 3",
+    "options": [
+      "a) 40",
+      "b) 80",
+      "c) 120",
+      "d) 160"
+    ],
+    "answer": "b) 80",
+    "category": "미적분학",
+    "image_path": "images/스크린샷 2025-06-09 195425.png"
+  },
+  {
+    "question": "수열 {a_n}이 다음 조건을 만족시킨다. (가) a_1 = 141 (나) 모든 자연수 n에 대하여 a_{n+1} = 2a_n - 10 (다) a_{n+4} = a_n - 14. a_1 + a_2 + a_3 + a_4 + a_5 값을 구하시오.",
+    "latex": "a_1 = 141, \\ a_{n+1} = 2a_n - 10, \\ a_{n+4} = a_n - 14",
+    "options": [
+      "a) 44",
+      "b) 45",
+      "c) 46",
+      "d) 47"
+    ],
+    "answer": "a) 44",
+    "category": "수열",
+    "image_path": "images/스크린샷 2025-06-09 195431.png"
+  },
+  {
+    "question": "22. 최고차항의 계수가 금연인 삼차함수 \\( f(x) \\)가 실수 \\( t \\)에 대하여 방정식 \\( f'(t) = 0 \\)이 닫힌구간 \\([t, t+1]\\)에서 갖는 실근의 개수를 \\( g(t) \\)라 할 때, 함수 \\( g(t) \\)는 다음 조건을 만족시킨다. (가) 모든 실수 \\( t \\)에 대하여 \\( 0 \\leq g(t) \\leq 2 \\)이다. \\( g(f(t))=g(f(t+1))=2, g(f(t))=1 \\). \\( f(5) \\)의 값을 구하시오. [44]",
+    "latex": "f(x) = ax^3 + bx^2 + cx + d",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "category": "미적분",
+    "image_path": "images/스크린샷 2025-06-09 195434.png"
+  },
+  {
+    "question": "다항식 \\((x+92)^n\\)의 전개식에서 \\(x^7\\)의 계수는?",
+    "latex": "(x+92)^n",
+    "options": [
+      "42",
+      "56",
+      "70",
+      "84",
+      "98"
+    ],
+    "answer": "84",
+    "category": "다항식 전개",
+    "image_path": "images/스크린샷 2025-06-09 195438.png"
+  },
+  {
+    "question": "확률변수 X가 이항분포 B(n, p)를 따르고 V(X) = 40일 때, np(1-p)의 값은?",
+    "latex": "V(X) = np(1-p) = 40",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "answer": "40",
+    "category": "probability",
+    "image_path": "images/스크린샷 2025-06-09 195441.png"
+  },
+  {
+    "question": "다음 조건을 만족시키는 자연수 순서쌍 (a, b, c, d, e)의 개수는?",
+    "latex": "\\begin{align*} & (\\text{가}) \\ a + b + c + d + e = 12 \\\\ & (\\text{나}) \\ a - e = 5 \\end{align*}",
+    "options": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "answer": "32",
+    "category": "조합론",
+    "image_path": "images/스크린샷 2025-06-09 195447.png"
+  },
+  {
+    "question": "1부터 10까지 자연수가 하나씩 적혀 있는 10장의 카드가 들어 있는 주머니가 있다. 이 주머니에서 임의로 카드 3장을 동시에 꺼낼 때, 꺼낸 카드에 적혀 있는 세 자연수 중에서 가장 작은 수가 4 이하이거나 7 이상일 확률은?",
+    "latex": "P(\\text{가장 작은 수가 } \\leq 4 \\text{ 또는 } \\geq 7)",
+    "options": [
+      "1/2",
+      "3/5",
+      "7/10",
+      "4/5"
+    ],
+    "answer": "4/5",
+    "category": "확률",
+    "image_path": "images/스크린샷 2025-06-09 195449.png"
+  },
+  {
+    "question": "어느 자동차 회사에서 생산하는 전기 자동차의 1회 충전 주행 거리는 평균이 \\(\\mu\\)이고 표준편차가 \\(\\sigma\\)인 정규분포를 따른다고 한다. 이 자동차 회사에서 생산한 전기 자동차 100대를 임의추출하여 얻은 1회 충전 주행 거리의 표본평균이 \\(\\bar{x}_1\\)일 때, 모평균 \\(\\mu\\)에 대한 신뢰도 95%의 신뢰구간이 \\(\\bar{x}_1 \\pm Z_{0.025} \\frac{\\sigma}{\\sqrt{100}}\\)이다. 이 자동차 회사에서 생산한 전기 자동차 400대를 임의추출하여 얻은 1회 충전 주행 거리의 표본평균이 \\(\\bar{x}_2\\)일 때, 모평균 \\(\\mu\\)에 대한 신뢰도 99%의 신뢰구간이 \\(\\bar{x}_2 \\pm Z_{0.005} \\frac{\\sigma}{\\sqrt{400}}\\)이다. \\(1 - \\alpha = 0.95\\)이고 \\(\\alpha = c\\%\\)일 때, \\(\\bar{x}_1 - \\bar{x}_2\\)의 값은? (단, 주행 거리의 단위는 107이고, 표준정규분포를 따르는 확률변수 \\(Z\\)일 때, \\(P(|Z|< 1.96) =0.95\\), \\(P(|Z| < 2.58) = 0.99\\)로 계산한다.) [3점]",
+    "latex": "\\begin{align*} \\text{신뢰구간 95%: } & \\bar{x}_1 \\pm Z_{0.025} \\frac{\\sigma}{\\sqrt{100}} \\\\ \\text{신뢰구간 99%: } & \\bar{x}_2 \\pm Z_{0.005} \\frac{\\sigma}{\\sqrt{400}} \\\\ \\text{주어진 조건: } & 1 - \\alpha = 0.95, \\alpha = c\\% \\\\ \\text{표준정규분포: } & P(|Z|< 1.96) =0.95, P(|Z| < 2.58) = 0.99 \\\\ \\end{align*}",
+    "options": [
+      "5.88",
+      "7.84",
+      "9.80",
+      "11.76",
+      "13.72"
+    ],
+    "answer": "9.80",
+    "category": "확률 및 통계",
+    "image_path": "images/스크린샷 2025-06-09 195456.png"
+  },
+  {
+    "question": "두 집합 X={1, 2, 3, 4, 5}, Y={1, 2, 3, 4} 대하여 다음 조건을 만족시키는 X에서 Y로의 함수 f의 개수는?",
+    "latex": "X = \\{1, 2, 3, 4, 5\\}, \\quad Y = \\{1, 2, 3, 4\\}",
+    "options": [
+      "128",
+      "138",
+      "148",
+      "158",
+      "168"
+    ],
+    "answer": "168",
+    "category": "집합",
+    "image_path": "images/스크린샷 2025-06-09 195458.png"
+  },
+  {
+    "question": "두 연속확률변수 X와 Y의 값의 범위는 0 ≤ X < 6, 0 ≤ Y < 6이고, 확률밀도함수는 각각 f(x), g(y)이다. 확률변수 Z의 확률밀도함수 h(z)의 그래프는 그림과 같다. 0 < z < 6, 모든 z에 대하여 f(x) + g(y) = k (k는 상수)를 만족시킬 때, Z = 5k일 때의 값을 구하시오. (단, k와 q는 서로소인 자연수이다.) [4점]",
+    "latex": "0 \\leq X < 6, \\ 0 \\leq Y < 6, \\ f(x) + g(y) = k, \\ Z = 5k",
+    "options": [
+      "a) 1",
+      "b) 2",
+      "c) 3",
+      "d) 4"
+    ],
+    "answer": "b) 2",
+    "category": "확률 및 통계",
+    "image_path": "images/스크린샷 2025-06-09 195505.png"
+  },
+  {
+    "question": "30. 2 공과 검은 공이 각각 10개 이상 들어 있는 바구니와 비어 있는 주머니가 있다. 한 개의 주사위를 사용하여 다음 시행을 한다.\n\n구니에 있는 흰 공 1개를 주머니에 넣고, 주사위의 눈의 수가 4 이하이면 바구니에 있는 검은 공 1개를 주머니에 넣는다.\n\n위의 과정을 5번 반복할 때, (1 ≤ i ≤ 5)번째 시행 후 주머니에 들어 있는 흰 공과 검은 공의 개수를 각각 a_i, b_i라 하자. a_i + b_i = 7일 때, a_i = b_i인 자연수 (1 ≤ i ≤ 5)가 존재할 확률을 구하시오.",
+    "latex": "P(a_i = b_i \\mid a_i + b_i = 7)",
+    "options": [
+      "1/5",
+      "1/4",
+      "1/3",
+      "1/2"
+    ],
+    "answer": "1/5",
+    "category": "확률",
+    "image_path": "images/스크린샷 2025-06-09 195511.png"
+  },
+  {
+    "question": "다음 극한의 값을 구하세요: \\( \\lim_{n \\to \\infty} \\frac{23n^5 + 3n^3}{2n^2 + 1} \\)",
+    "latex": "\\lim_{n \\to \\infty} \\frac{23n^5 + 3n^3}{2n^2 + 1}",
+    "options": [
+      "a) \\infty",
+      "b) 0",
+      "c) 23/2",
+      "d) 0.5"
+    ],
+    "answer": "a) \\infty",
+    "category": "극한",
+    "image_path": "images/스크린샷 2025-06-09 195529.png"
+  },
+  {
+    "question": "실수 전체의 집합에서 미분가능한 함수 \\( f(x) \\)가 \\( f(a + 2) = e^a \\)을 만족시킬 때, \\( f'(2) \\)의 값은? [3점]",
+    "latex": "f(a + 2) = e^a",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "category": "미분",
+    "image_path": "images/스크린샷 2025-06-09 195533.png"
+  },
+  {
+    "question": "등비수열 {0,}에 대하여 첫째항 a1과 공비 r을 구하시오. 만약 a1 = 3, a2 = 6이라면 a3는 얼마인가?",
+    "latex": "a_1 = 3, \\ a_2 = 6, \\ a_3 = ?",
+    "options": [
+      "9",
+      "12",
+      "18",
+      "24"
+    ],
+    "answer": "9",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195537.png"
+  },
+  {
+    "question": "lim (k -> ∞) (43k + 2k) / (k + 3k^2 + n^2) 의 값은?",
+    "latex": "\\lim_{{k \\to \\infty}} \\frac{{43k + 2k}}{{k + 3k^2 + n^2}}",
+    "options": [
+      "Ind",
+      "2",
+      "3",
+      "5"
+    ],
+    "answer": "Ind",
+    "category": "BBA",
+    "image_path": "images/스크린샷 2025-06-09 195540.png"
+  },
+  {
+    "question": "좌표평면 위를 움직이는 점 P의 시각 t(t > 0)에서의 위치가 곡선과 접선이 만나는 서로 다른 두 점의 중점일 때, 시각 t=1에서 t=8까지 점 P가 움직인 거리는?",
+    "latex": "",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195544.png"
+  },
+  {
+    "question": "함수 \\( f(x) = 6r(e-1) \\) 에 대하여 함수 \\( g(x) = 3f(x) + 4\\cos f(x) \\) 라 하자. \\( 0 < x < 2 \\) 에서 함수 \\( g(x) \\) 가 극소가 되는 \\( x \\) 의 개수는?",
+    "latex": "f(x) = 6r(e-1), \\quad g(x) = 3f(x) + 4\\cos f(x)",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "7",
+    "category": "미적분학",
+    "image_path": "images/스크린샷 2025-06-09 195547.png"
+  },
+  {
+    "question": "그림과 같이 길이가 2인 선분 ABS 지름으로 하는 반원이 있다. 호 AB 위에 두 점 2, QS ZPAB=0, 2QBA=207} 되도록 잡고, 두 선분 AP, BQS] 교점을 Re} 하자. 선분 AB 위의 점 5, 선분 BR 위의 점 T, 선분 AR 위의 AUS 선분 0ㅜ가 선분 ABO 평행하고 삼각형 570가 정삼각형이 되도록 잡는다. 두 선분 AR, QRS} 호 AQE 둘러싸인 부분의 넓이를 삼각형 STUS 넓이를 0(0)라 할 때, ling y= 을 78 이다. 2+0의 Re 구하시오. (Cd, 0<0< 즘이고, pt 는 서로소인 자연수이다.)",
+    "latex": "",
+    "options": [],
+    "answer": "",
+    "category": "geometry",
+    "image_path": "images/스크린샷 2025-06-09 195555.png"
+  },
+  {
+    "question": "30. 실수 전체의 집합에서 증가하고 미분가능한 함수 f(a) 7h 다음 조건을 만족시킨다. oP /00 =, [noes (나) 함수 fs) 4 역함수를 go) 할 때 x21 모든 실수 에 대하여 000= 2f (x) 1th. [ef ote=49 따, p49] Be PIL, (단, 7와 ge 서로소인 자연수이다.) [44]",
+    "latex": "",
+    "options": [],
+    "answer": "",
+    "category": "",
+    "image_path": "images/스크린샷 2025-06-09 195559.png"
+  },
+  {
+    "question": "점 P(2, 1)을 y축에 대하여 대칭이동한 점을 P'라고 하고, 점 P'를 x축에 대하여 대칭이동한 점을 Q라고 할 때, 선분 PQ의 길이는?",
+    "latex": "",
+    "options": [
+      "2√5",
+      "2√13",
+      "3√10",
+      "2√14",
+      "2√15"
+    ],
+    "answer": "2√5",
+    "category": "geometry",
+    "image_path": "images/스크린샷 2025-06-09 195605.png"
+  },
+  {
+    "question": "한 초점의 좌표가 (819, 0)인 쌍곡선 \\(\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1\\)의 주축의 길이는? (단, \\(a > 0\\)이다.)",
+    "latex": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+    "options": [
+      "2 \\sqrt{3}",
+      "8",
+      "4 \\sqrt{8}",
+      "8",
+      "5 \\sqrt{3}"
+    ],
+    "answer": "2 \\sqrt{3}",
+    "category": "Geometry",
+    "image_path": "images/스크린샷 2025-06-09 195607.png"
+  },
+  {
+    "question": "다음 수식을 만족하는 x의 값을 구하세요.",
+    "latex": "2x + 3 = 7",
+    "options": [
+      "x = 1",
+      "x = 2",
+      "x = 3",
+      "x = 4"
+    ],
+    "answer": "x = 2",
+    "category": "방정식",
+    "image_path": "images/스크린샷 2025-06-09 195611.png"
+  },
+  {
+    "question": "두 초점이 F, F'인 타원 위의 점 중 제1사분면에 있는 점 P가 있다. 두 직선 AP, AF'에 동시에 접하고 중심이 타원 위에 있는 원 중 중심의 x좌표가 음수인 원을 C라 하자. 원 C의 반지름의 길이를 구하시오. 원 C의 반지름의 길이가 3일 때 사각형 APF'의 넓이는 얼마인가?",
+    "latex": "",
+    "options": [
+      "19",
+      "21",
+      "OF",
+      "@9",
+      "a>",
+      "10",
+      "OF",
+      "m2"
+    ],
+    "answer": "21",
+    "category": "Geometry",
+    "image_path": "images/스크린샷 2025-06-09 195614.png"
+  },
+  {
+    "question": "27. 그림과 같이 한 모서리의 길이가 4인 정육면체 ABCD - EFGH가 있다. 선분 AD의 중점을 M이라 할 때, 삼각형 MEG의 넓이는?",
+    "latex": "",
+    "options": [
+      "a) 4√3",
+      "b) 6",
+      "c) 8",
+      "d) 4"
+    ],
+    "answer": "a) 4√3",
+    "category": "geometry",
+    "image_path": "images/스크린샷 2025-06-09 195619.png"
+  },
+  {
+    "question": "두 양수 a, b에 대하여 포물선 (y-a)^2 = 4px의 초점을 F1이라 하고, 포물선 y^2 = -4x의 초점을 F2라 하자. 선분 F1F2가 두 포물선과 만나는 점을 각각 P, Q라 할 때, F1P = 3, F2Q = 1이다. F1Q^2 + F2P^2의 값은?",
+    "latex": "(y-a)^2 = 4px",
+    "options": [
+      "5",
+      "10",
+      "13",
+      "20"
+    ],
+    "answer": "10",
+    "category": "기하학",
+    "image_path": "images/스크린샷 2025-06-09 195634.png"
+  },
+  {
+    "question": "좌표평면에서 $OA = \\sqrt{2}$, $OB = 2\\sqrt{2}$이고 $\\cos(\\angle AOB) = \\frac{1}{\\sqrt{2}}$인 평행사변형 $OABC$에 대하여 점 $P$가 다음 조건을 만족시킬 때, $(P = sOA + tOB, \\ 0<s<1, \\ 0<t<1)$, $OP - OB + BP - BC = 2$를 중심으로 하고 점 $A$를 지나는 원 위를 움직이는 점 $X$에 대하여 $|3OP - OX|^2$의 최댓값과 $AS = RS$인 경우 $M = ax + by + c$일 때, $a^2 + b^2$의 값을 구하시오. (단, $a$와 $b$는 유리수이다.) [4점]",
+    "latex": "",
+    "options": [],
+    "answer": "",
+    "category": "수학",
+    "image_path": "images/스크린샷 2025-06-09 195647.png"
+  },
+  {
+    "question": "그림과 같이 반지름의 길이가 5인 원이 있다. 이 원에서 중심각이 180도인 부채꼴의 호의 길이와 넓이를 구하시오.",
+    "latex": [
+      "r = 5",
+      "\\theta = 180^{\\circ} = \\pi \\text{ radians"
+    ],
+    "explain": "",
+    "image_path": "ERROR"
+  },
+  {
+    "question": "그림과 같이 원의 중심 O에서 반지름이 6인 원이 있다. 이 원에서 각 AOB가 60도일 때, 호 AB의 길이와 부채꼴 AOB의 넓이를 구하시오.",
+    "latex": [
+      "ㄱ. ~r=6",
+      "ㄱ. ~60^\\circ",
+      "ㄱ. ~길이~L=6.28"
+    ],
+    "explain": "",
+    "image_path": "results/problem_120.png"
+  },
+  {
+    "question": "그림과 같이 원의 중심 O에서 반지름이 6인 원이 있습니다. 이 원에서 각 AOB가 120도일 때, 호 AB의 길이와 부채꼴 AOB의 넓이를 구하시오.",
+    "latex": [
+      "~r=6",
+      "~120^\\circ",
+      "~길이~L=12.57"
+    ],
+    "explain": "",
+    "image_path": "results/problem_121.png"
+  },
+  {
+    "question": "그림과 같이 반지름이 10인 반원 O가 있다. 이 반원에서 각 AOB가 120도일 때, 호 AB의 길이와 부채꼴 AOB의 넓이를 구하시오.",
+    "latex": [
+      "r = 10",
+      "\\angle AOB = 120^\\circ",
+      "L = \\frac{2\\pi \\times 10 \\times 120}{360"
+    ],
+    "explain": "",
+    "image_path": "results/problem_122.png"
+  },
+  {
+    "question": "그림과 같이 반지름이 6인 원에서 중심각이 120도인 부채꼴 OAB가 있다. 이 부채꼴의 호 AB의 길이와 넓이를 구하시오.",
+    "latex": [
+      "~r=6",
+      "~120^\\circ",
+      "~길이~L=12.57"
+    ],
+    "explain": "",
+    "image_path": "results/problem_123.png"
+  },
+  {
+    "question": "연속확률변수 X의 확률밀도함수 f(x)가 다음과 같은 조건을 만족할 때, P(X = 2)를 구하시오.",
+    "latex": [
+      "0 \\leq X \\leq 4",
+      "\\int_{0}^{4} f(x) \\, dx = 1",
+      "f(x) = \\begin{cases} ax + b, & 0 \\leq x < 2 \\\\ cx^2 + d, & 2 \\leq x \\leq 4 \\end{cases}"
+    ],
+    "explain": "동전~5번~던짐 앞면~4번~나옴",
+    "tikz_code": "\\begin{tikzpicture} \\begin{axis}[xlabel={$x$}, ylabel={$f(x)$}, domain=0:4, samples=100] \\addplot[domain=0:2, thick] {0.5*x + 0.1}; \\addplot[domain=2:4, thick] {0.1*x^2 + 0.05}; \\end{axis} \\end{tikzpicture}",
+    "tikz_image_path": "ERROR"
+  },
+  {
+    "question": "두 연속확률변수 X와 Y의 값의 범위는 0 ≤ X < 6, 0 ≤ Y < 6이고, 확률밀도함수는 각각 f(x), g(y)이다. 확률변수 Z의 확률밀도함수 h(z)의 그래프는 그림과 같다. 0 < z < 6, 모든 z에 대하여 f(x) + g(y) = k (k는 상수)를 만족시킬 때, Z = 5k일 때의 값을 구하시오. (단, k와 q는 서로소인 자연수이다.)",
+    "latex": [
+      "P=0.0938"
+    ],
+    "explain": "동전~6번~던짐 앞면~5번~나옴",
+    "tikz_code": "",
+    "tikz_image_path": "",
+    "image_path": "results/problem_125.png"
+  },
+  {
+    "question": "지수 방정식 \\(3^{2x} = 81\\)의 해를 구하시오.",
+    "latex": [
+      "3^{2x} = 81"
+    ],
+    "explain": "3^4 지수~계산",
+    "tikz_code": "",
+    "tikz_image_path": "",
+    "image_path": "results/problem_126.png"
+  },
+  {
+    "question": "다음 조건을 만족하는 수열의 합 \\( S_n \\)과 일반항 \\( a_n \\)을 구하시오.",
+    "latex": [
+      "a_1 = 6",
+      "\\quad a_{n+1} = 2a_n + 4",
+      "\\quad n \\geq 1"
+    ],
+    "explain": "",
+    "tikz_code": "",
+    "answer": {
+      "Sn": 114,
+      "an": 9216
+    },
+    "tikz_image_path": "",
+    "image_path": "results/problem_127.png"
+  },
+  {
+    "question": "등차수열의 첫째항을 a_1, 공차를 d라고 할 때, n번째 항 a_n과 처음 n개의 항의 합 S_n을 각각 구하시오. 단, a_1 = 8, d = 4, n = 33이다.",
+    "latex": [
+      "a_1 = 8",
+      "\\ d = 4",
+      "\\ n = 33"
+    ],
+    "explain": "",
+    "tikz_code": "",
+    "answer": {
+      "Sn": 2376,
+      "an": 136
+    },
+    "tikz_image_path": "",
+    "image_path": "results/problem_128.png"
+  },
+  {
+    "question": "삼각형 ABC에서 각 A, B, C의 크기가 각각 60°, 45°, 75°일 때, 삼각형의 넓이를 구하세요.",
+    "latex": [
+      "A = \\frac{1}{2}ab \\sin C"
+    ],
+    "explain": "",
+    "tikz_code": "",
+    "tikz_image_path": "",
+    "image_path": "results/problem_129.png"
+  }
+]
