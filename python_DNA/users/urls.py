@@ -1,9 +1,8 @@
 from django.urls import path
-from .views import SignUpAPI, ProfileAPI, ProfileUpdateAPI, CheckDuplicateAPI
+from .views import UserRegisterView, MyTokenObtainPairView, UserProfileView
 
 urlpatterns = [
-    path('signup/', SignUpAPI.as_view(), name='user-signup'),
-    path('me/', ProfileAPI.as_view(), name='my-profile'),
-    path('me/update/', ProfileUpdateAPI.as_view(), name='my-profile-update'),
-    path('check/', CheckDuplicateAPI.as_view(), name='user-duplicate-check'),
+    path('api/signup/', UserRegisterView.as_view(), name='user-signup'),
+    path('api/login/', MyTokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/profile/', UserProfileView.as_view(), name='user-profile'),
 ]

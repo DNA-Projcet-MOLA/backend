@@ -1,7 +1,12 @@
 from django.urls import path
-from .views import ProblemListAPI, ProblemDetailAPI
+from .views import (
+    ProblemImageUploadAPIView,
+    ProblemListCreateAPIView,
+    ProblemRetrieveUpdateDestroyAPIView
+)
 
 urlpatterns = [
-    path('list/', ProblemListAPI.as_view(), name='problem-list'),
-    path('<int:pk>/', ProblemDetailAPI.as_view(), name='problem-detail'),
+    path('upload/', ProblemImageUploadAPIView.as_view(), name='problem-image-upload'),
+    path('list/', ProblemListCreateAPIView.as_view(), name='problem-list-create'),
+    path('<int:pk>/', ProblemRetrieveUpdateDestroyAPIView.as_view(), name='problem-detail'),
 ]

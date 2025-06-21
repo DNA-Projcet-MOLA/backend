@@ -9,15 +9,14 @@ class User(AbstractUser):
     real_name = models.CharField("이름", max_length=30)
     birthdate = models.DateField("생년월일", null=True, blank=True)
     school = models.CharField("학교명", max_length=50, blank=True)
-    grade = models.PositiveSmallIntegerField("학년", null=True, blank=True)
-    classroom = models.PositiveSmallIntegerField("반", null=True, blank=True)
     student_number = models.PositiveSmallIntegerField("학번", null=True, blank=True)
     avatar = models.ImageField("프로필 사진", upload_to=user_avatar_path, null=True, blank=True, default="avatars/default.jpg")
 
-    REQUIRED_FIELDS = ['email', 'real_name', 'birthdate', 'school', 'grade', 'classroom', 'student_number']
+    REQUIRED_FIELDS = ['email', 'real_name', 'birthdate', 'school', 'student_number']
+    # grade, classroom 제거
 
     class Meta:
-        unique_together = [('school', 'grade', 'classroom', 'student_number')]
+        unique_together = [('school', 'student_number')]  # 고유 제약: 학교+학번
 
     def save(self, *args, **kwargs):
         if not self.avatar:

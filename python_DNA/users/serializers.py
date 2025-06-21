@@ -1,74 +1,87 @@
 from rest_framework import serializers
 from .models import User
-from django.utils import timezone
+from django.contrib.auth.password_validation import validate_password
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
-class SignUpSerializer(serializers.ModelSerializer):
-    password = serializers.CharField(write_only=True, min_length=8)
-    email = serializers.EmailField()
-    avatar = serializers.ImageField(required=False, allow_null=True)
+class UserRegisterSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True, required=True, validators=[validate_password])
+    password2 = serializers.CharField(write_only=True, required=True, label='비밀번호 확인')
+    avatar = serializers.ImageField(required=False, allow_null=True, allow_empty_file=True)
 
     class Meta:
         model = User
-        fields = ("username", "password", "email", "real_name", "birthdate",
-                  "school", "grade", "classroom", "student_number", "avatar")
-        extra_kwargs = {
-            "real_name": {"required": True},
-            "birthdate": {"required": True},
-            "school": {"required": True},
-            "grade": {"required": True},
-            "classroom": {"required": True},
-            "student_number": {"required": True},
-        }
-
-    def validate_birthdate(self, value):
-        today = timezone.now().date()
-        age = (today - value).days // 365
-        if not (7 <= age <= 21):
-            raise serializers.ValidationError("생년월일을 정확히 입력하세요. (7~21세만 가입 가능)")
-        return value
-
-    def validate_grade(self, value):
-        if not (1 <= value <= 3):
-            raise serializers.ValidationError("학년은 1~3 사이여야 합니다.")
-        return value
-
-    def validate_classroom(self, value):
-        if not (1 <= value <= 20):
-            raise serializers.ValidationError("반은 1~20 사이여야 합니다.")
-        return value
-
-    def validate_student_number(self, value):
-        if not (1 <= value <= 50):
-            raise serializers.ValidationError("학번은 1~50 사이여야 합니다.")
-        return value
+        fields = [
+            'username',
+            'email',
+            'real_name',
+            'birthdate',
+            'school',
+            'student_number',
+            'password',
+            'password2',
+            'avatar',   # 추가됨
+        ]
 
     def validate(self, data):
-        qs = User.objects.filter(
-            school=data['school'],
-            grade=data['grade'],
-            classroom=data['classroom'],
-            student_number=data['student_number'],
-        )
-        if qs.exists():
-            raise serializers.ValidationError("이미 등록된 학번입니다.")
+        if data['password'] != data['password2']:
+            raise serializers.ValidationError("비밀번호와 비밀번호 확인이 일치하지 않습니다.")
         return data
 
     def create(self, validated_data):
-        password = validated_data.pop('password')
-        user = User(**validated_data)
-        user.set_password(password)
-        if not user.avatar:
-            user.avatar = 'avatars/default.jpg'
-        user.save()
+        validated_data.pop('password2')
+        avatar = validated_data.pop('avatar', None)
+        user = User.objects.create_user(
+            username=validated_data['username'],
+            email=validated_data['email'],
+            real_name=validated_data.get('real_name', ''),
+            birthdate=validated_data.get('birthdate', None),
+            school=validated_data.get('school', ''),
+            student_number=validated_data.get('student_number', None),
+            password=validated_data['password'],
+        )
+        if avatar:
+            user.avatar = avatar
+            user.save()
         return user
 
-class UserSerializer(serializers.ModelSerializer):
+class UserProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ("id", "username", "real_name", "birthdate", "email", "school", "grade", "classroom", "student_number", "avatar")
-        read_only_fields = ("id", "username", "avatar", "email")
+        fields = [
+            'username',
+            'email',
+            'real_name',
+            'birthdate',
+            'school',
+            'student_number',
+            'avatar',
+        ]
+        # read_only_fields = []  # 완전히 제거
 
-class UserUpdateSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = User
-        fields = ("real_name", "birthdate", "school", "grade", "classroom", "student_number", "avatar")
+    def validate_username(self, value):
+        user = self.instance
+        if User.objects.exclude(pk=user.pk).filter(username=value).exists():
+            raise serializers.ValidationError("이미 사용 중인 아이디입니다.")
+        return value
+
+
+class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
+    @classmethod
+    def get_token(cls, user):
+        token = super().get_token(user)
+        # Custom claims
+        token['real_name'] = user.real_name
+        token['email'] = user.email
+        token['avatar'] = user.avatar.url if user.avatar else None
+        return token
+
+    def validate(self, attrs):
+        data = super().validate(attrs)
+        data['user'] = {
+            'username': self.user.username,
+            'real_name': self.user.real_name,
+            'email': self.user.email,
+            'avatar': self.user.avatar.url if self.user.avatar else None,
+        }
+        return data
+

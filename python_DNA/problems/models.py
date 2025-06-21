@@ -1,15 +1,11 @@
 from django.db import models
+from users.models import User
 
 class Problem(models.Model):
-    title = models.CharField("문제 제목", max_length=200)
-    content = models.TextField("문제 본문")
-    image = models.ImageField("문제 이미지", upload_to='problems/', null=True, blank=True)
-    subject = models.CharField("과목", max_length=20, blank=True)
-    level = models.PositiveSmallIntegerField("난이도", null=True, blank=True)
-    latex = models.TextField("LaTeX 코드", blank=True)           # OCR 결과 (optional)
-    answer = models.TextField("정답/해설", blank=True)           # GPT 생성 결과 (optional)
-    tags = models.CharField("태그", max_length=100, blank=True)  # GPT, 사용자 라벨
-    created_at = models.DateField("출제일", auto_now_add=True)
+    question = models.TextField("문제 내용", null=True, blank=True, default="")
+    image_path = models.CharField("문제 이미지 경로", max_length=255, null=True, blank=True, default="")
+    created_at = models.DateTimeField("등록일", auto_now_add=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name="작성자", null=True, blank=True)
 
     def __str__(self):
-        return f"[{self.subject}] {self.title}"
+        return self.question[:50]

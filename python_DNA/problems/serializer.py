@@ -4,4 +4,5 @@ from .models import Problem
 class ProblemSerializer(serializers.ModelSerializer):
     class Meta:
         model = Problem
-        fields = ('id', 'title', 'content', 'image', 'subject', 'level', 'latex', 'answer', 'tags', 'created_at')
+        fields = ['id', 'question', 'image_path', 'created_at', 'user']
+        read_only_fields = ['id', 'created_at', 'user']
