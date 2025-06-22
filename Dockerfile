@@ -21,16 +21,18 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     libgl1 \
     curl \
-    build-essential \
-    rustc \
-    cargo \
+    git \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+RUN curl https://sh.rustup.rs -sSf | sh -s -- -y \
+    && . "$HOME/.cargo/env"
 
 RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 COPY python_DNA/requirments.txt /app/requirements.txt
-RUN pip install --no-cache-dir --upgrade pip setuptools wheel
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip setuptools wheel \
+    && . "$HOME/.cargo/env" \
+    && pip install --no-cache-dir -r requirements.txt
 
 COPY python_DNA/ /app/
 COPY *.py /app/ml_modules/
