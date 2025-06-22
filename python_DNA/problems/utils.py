@@ -6,6 +6,10 @@ from pix2tex.cli import LatexOCR
 import openai
 import re
 import json
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # -------------------- OCR --------------------
 
@@ -33,8 +37,8 @@ def img2text(image_path):
 
 # -------------------- GPT 구조화 --------------------
 
-OPENAI_API_KEY = "sk-..."  # ← 본인 키로 교체
-openai.api_key = OPENAI_API_KEY
+  # ← 본인 키로 교체
+openai.api_key = os.getenv("OPENAI_API_KEY")
 GPT_MODEL = "gpt-4o"
 
 def struct_problem_with_gpt(text, latex, image_path):

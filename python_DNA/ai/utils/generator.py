@@ -5,6 +5,9 @@ from .faiss_search import get_similar_problem_idxs, load_problems
 import openai
 from PIL import Image, ImageDraw, ImageFont
 
+from dotenv import load_dotenv
+load_dotenv()
+
 def save_ai_problem_image(img_object, prefix='ai_problem'):
     # media/images/에 저장
     os.makedirs(settings.IMAGES_DIR, exist_ok=True)
@@ -81,7 +84,7 @@ def make_problem_with_gpt_service(problem_type, top_k=3):
         return json.loads(m.group())
 
     # 4. GPT 호출
-    openai.api_key = os.environ.get('OPENAI_API_KEY', 'sk-...')  # 환경변수 권장
+    openai.api_key = os.getenv("OPENAI_API_KEY")
     prompt = make_gpt_problem_prompt(problem_type, problem_base['answer'], latex_conds, examples, explain)
     response = openai.ChatCompletion.create(
         model="gpt-4o",
