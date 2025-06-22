@@ -9,7 +9,7 @@ sentence-transformers==4.1.0
 faiss-cpu==1.11.0
 openai==0.28.0
 pytesseract==0.3.13
-pix2tex==0.1.4
+pix2tex==0.1.4  --no-deps
 transformers==4.49.0
 opencv-python==4.8.1.78
 watchdog==6.0.0
