@@ -36,7 +36,7 @@ SECRET_KEY = 'django-insecure-zc79zn_$@9w$b!-fwi%6b(ss8wkhfz*_+*ti%ku&u7z5^h!f-n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mola-api.tyeongk.im']
 
 
 # Application definition
