@@ -2,9 +2,10 @@
 Django>=5.2,<6.0                 # Django 웹 프레임워크(최신 5.x 권장)
 djangorestframework>=3.15        # DRF: API 서버 개발
 djangorestframework-simplejwt    # JWT 인증(토큰 방식)
-drf-yasg                        # Swagger/OpenAPI 문서 자동화
-Pillow                          # 이미지 업로드/처리
-python-dotenv                   # 환경변수 관리(.env 지원)
+drf-yasg                         # Swagger/OpenAPI 문서 자동화
+Pillow                           # 이미지 업로드/처리
+python-dotenv                    # 환경변수 관리(.env 지원)
+django-cors-headers              # CORS 미들웨어 지원
 
 # User 모델 커스텀 시 필요(보통은 Django 내장 User, 이미 적용)
 # (추가 커스텀 User 모델만 있으면 무관)
