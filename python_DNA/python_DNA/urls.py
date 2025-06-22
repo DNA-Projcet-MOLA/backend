@@ -24,10 +24,28 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="회원 API",
+        title="MOLA 백엔드 API",
         default_version='v1',
-        description="회원가입/로그인/프로필 API 문서",
-        contact=openapi.Contact(email="contact@example.com"),
+        description="""MOLA (Mathematical Object Learning Assistant) 백엔드 API 문서
+        
+이 API는 다음과 같은 기능을 제공합니다:
+- 사용자 인증 및 관리 (회원가입, 로그인, 프로필 관리)
+- 수학 문제 업로드 및 관리 (이미지 OCR, 문제 분석)
+- AI 기반 문제 생성
+
+인증이 필요한 API는 헤더에 JWT 토큰을 포함해야 합니다:
+Authorization: Bearer {your_access_token}
+        """,
+        terms_of_service="https://mola.example.com/terms/",
+        contact=openapi.Contact(
+            name="MOLA 개발팀",
+            email="contact@mola.example.com",
+            url="https://mola.example.com"
+        ),
+        license=openapi.License(
+            name="MIT License",
+            url="https://opensource.org/licenses/MIT"
+        ),
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),

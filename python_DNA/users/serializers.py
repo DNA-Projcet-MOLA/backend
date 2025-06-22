@@ -4,9 +4,29 @@ from django.contrib.auth.password_validation import validate_password
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
 class UserRegisterSerializer(serializers.ModelSerializer):
-    password = serializers.CharField(write_only=True, required=True, validators=[validate_password])
-    password2 = serializers.CharField(write_only=True, required=True, label='비밀번호 확인')
-    avatar = serializers.ImageField(required=False, allow_null=True, allow_empty_file=True)
+    """
+    사용자 회원가입을 위한 시리얼라이저
+    
+    새로운 사용자 계정 생성을 위한 모든 필수 정보를 검증하고 처리합니다.
+    """
+    password = serializers.CharField(
+        write_only=True, 
+        required=True, 
+        validators=[validate_password],
+        help_text="비밀번호 (최소 8자, 숫자와 문자 조합 권장)"
+    )
+    password2 = serializers.CharField(
+        write_only=True, 
+        required=True, 
+        label='비밀번호 확인',
+        help_text="비밀번호 확인 (위 비밀번호와 일치해야 함)"
+    )
+    avatar = serializers.ImageField(
+        required=False, 
+        allow_null=True, 
+        allow_empty_file=True,
+        help_text="프로필 사진 (선택사항, JPG/PNG 형식 권장)"
+    )
 
     class Meta:
         model = User
@@ -45,6 +65,36 @@ class UserRegisterSerializer(serializers.ModelSerializer):
         return user
 
 class UserProfileSerializer(serializers.ModelSerializer):
+    """
+    사용자 프로필 관리를 위한 시리얼라이저
+    
+    로그인한 사용자의 프로필 정보 조회, 수정을 위한 시리얼라이저입니다.
+    """
+    
+    username = serializers.CharField(
+        help_text="사용자 아이디 (고유값, 중복 불가)"
+    )
+    email = serializers.EmailField(
+        help_text="이메일 주소 (고유값, 중복 불가)"
+    )
+    real_name = serializers.CharField(
+        help_text="실명"
+    )
+    birthdate = serializers.DateField(
+        help_text="생년월일 (YYYY-MM-DD 형식)"
+    )
+    school = serializers.CharField(
+        help_text="학교명"
+    )
+    student_number = serializers.IntegerField(
+        help_text="학번"
+    )
+    avatar = serializers.ImageField(
+        required=False,
+        allow_null=True,
+        help_text="프로필 사진 (선택사항, JPG/PNG 형식 권장)"
+    )
+    
     class Meta:
         model = User
         fields = [
@@ -56,7 +106,6 @@ class UserProfileSerializer(serializers.ModelSerializer):
             'student_number',
             'avatar',
         ]
-        # read_only_fields = []  # 완전히 제거
 
     def validate_username(self, value):
         user = self.instance
