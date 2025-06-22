@@ -26,3 +26,4 @@ pandas-datareader==0.10.0
 munch==4.0.0
 einops==0.8.1
 PyYAML==6.0.1
+x-transformers==0.15.0
