@@ -36,7 +36,7 @@ RUN curl https://sh.rustup.rs -sSf | sh -s -- -y \
 
 RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
-COPY python_DNA/requirments.txt /app/requirements.txt
+COPY python_DNA/requirements.txt /app/requirements.txt
 RUN pip install --upgrade pip setuptools wheel \
     && . "$HOME/.cargo/env" \
     && pip install --no-cache-dir -r requirements.txt
