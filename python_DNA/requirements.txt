@@ -15,7 +15,6 @@ opencv-python==4.8.1.78
 watchdog==6.0.0
 requests==2.31.0
 tqdm==4.66.2
-timm==0.9.2
 psycopg2-binary==2.9.9
 pytest==8.2.2
 pytest-django==4.8.0
