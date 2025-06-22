@@ -6,9 +6,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      # Mount media files for persistent storage
       - ./python_DNA/media:/app/media
-      # Mount database for development (optional - comment out for production)
       - ./python_DNA/db.sqlite3:/app/db.sqlite3
     environment:
       - DEBUG=1
@@ -17,7 +15,6 @@ services:
       - db
     restart: unless-stopped
 
-  # Optional PostgreSQL database (uncomment if you want to use PostgreSQL instead of SQLite)
   db:
     image: postgres:15-alpine
     volumes:
@@ -29,13 +26,6 @@ services:
     ports:
       - "5432:5432"
     restart: unless-stopped
-
-  # Optional Redis for caching (uncomment if needed)
-  # redis:
-  #   image: redis:7-alpine
-  #   ports:
-  #     - "6379:6379"
-  #   restart: unless-stopped
 
 volumes:
   postgres_data:
