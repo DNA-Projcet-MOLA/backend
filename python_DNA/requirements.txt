@@ -18,3 +18,4 @@ tqdm==4.66.2
 psycopg2-binary==2.9.9
 pytest==8.2.2
 pytest-django==4.8.0
+numpy==1.26.4
