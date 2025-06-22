@@ -40,6 +40,7 @@ COPY python_DNA/requirements.txt /app/requirements.txt
 RUN pip install --upgrade pip setuptools wheel \
     && . "$HOME/.cargo/env" \
     && pip install --no-cache-dir -r requirements.txt
+RUN pip install pix2tex==0.1.4 --no-deps
 
 COPY python_DNA/ /app/
 COPY *.py /app/ml_modules/
