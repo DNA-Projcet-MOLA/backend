@@ -43,6 +43,4 @@ python manage.py migrate\n\
 python manage.py runserver 0.0.0.0:8000' > /app/start.sh \
     && chmod +x /app/start.sh
 
-COPY --chmod=755 ./start.sh /app/start.sh
-
 CMD ["/app/start.sh"]
