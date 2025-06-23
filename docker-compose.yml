@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  api:
+  web:
     build: .
     ports:
       - "8000:8000"
@@ -11,7 +11,5 @@ services:
     environment:
       - DEBUG=1
       - DJANGO_SETTINGS_MODULE=python_DNA.settings
-    depends_on:
-      - db
     restart: unless-stopped
 
