@@ -14,6 +14,7 @@ class UserRegisterView(generics.CreateAPIView):
     새로운 사용자 계정을 생성합니다.
     """
     serializer_class = UserRegisterSerializer
+    permission_classes = []  # No authentication required for signup
     
     @swagger_auto_schema(
         operation_summary="회원가입",
