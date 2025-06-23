@@ -49,6 +49,7 @@ Authorization: Bearer {your_access_token}
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
+    generators=(openapi.SchemaGenerator,),
 )
 
 urlpatterns = [
