@@ -121,6 +121,9 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
         # Custom claims
         token['real_name'] = user.real_name
         token['email'] = user.email
+        token['birthdate'] = str(user.birthdate) if user.birthdate else None
+        token['school'] = user.school
+        token['student_number'] = user.student_number
         token['avatar'] = user.avatar.url if user.avatar else None
         return token
 
@@ -130,6 +133,9 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
             'username': self.user.username,
             'real_name': self.user.real_name,
             'email': self.user.email,
+            'birthdate': str(self.user.birthdate) if self.user.birthdate else None,
+            'school': self.user.school,
+            'student_number': self.user.student_number,
             'avatar': self.user.avatar.url if self.user.avatar else None,
         }
         return data

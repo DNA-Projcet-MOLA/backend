@@ -108,6 +108,9 @@ class MyTokenObtainPairView(TokenObtainPairView):
                             "username": "john_doe",
                             "real_name": "홍길동",
                             "email": "john@example.com",
+                            "birthdate": "2000-01-01",
+                            "school": "선린인터넷고등학교",
+                            "student_number": 1001,
                             "avatar": "/media/avatars/john_doe/profile.jpg"
                         }
                     }
